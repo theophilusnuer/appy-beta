@@ -1,0 +1,41 @@
+header{
+    /* background-image: url(../Img/header-bg.jpg); */
+    /* background-color: #759EDA; */
+    background: linear-gradient(transparent, #757CD1), url("../Img/header-bg.jpg"), #76BAE0;
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: 100% 100%;
+    padding: 20px 10px 0% 10px;
+}
+
+body{
+margin: 0%;
+
+}
+
+li{
+    display: inline;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+li:hover {
+text-decoration: underline;
+cursor: pointer;
+text-underline-offset: 10px;
+}
+
+button{
+    border-radius: 30px;
+    width: 100px;
+    height: 50px;
+    border-color:transparent
+}
